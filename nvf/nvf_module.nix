@@ -1,8 +1,4 @@
-{
-  pkgs,
-  lib,
-  ...
-}: {
+{pkgs, ...}: {
   vim = {
     theme = {
       enable = true;
@@ -99,7 +95,13 @@
     };
 
     languages = {
+      markdown.format.type = "prettierd";
       enableTreesitter = true;
+      html.enable = true;
+      html.treesitter.enable = true;
+      css.enable = true;
+      css.treesitter.enable = true;
+      css.lsp.enable = true;
       nix.enable = true;
       nix.lsp.enable = true;
       nix.format.enable = true;
@@ -108,6 +110,8 @@
       ts.format.enable = true;
       ts.treesitter.enable = true;
       ts.lsp.enable = true;
+      ts.format.type = "prettierd";
+      #ts.lsp.server = "denols";
       tailwind.enable = true;
       tailwind.lsp.enable = true;
       rust.enable = true;
