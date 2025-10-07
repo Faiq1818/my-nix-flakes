@@ -95,7 +95,7 @@
     };
 
     languages = {
-      markdown.format.type = "prettierd";
+      #markdown.format.type = "prettierd";
       enableTreesitter = true;
       html.enable = true;
       html.treesitter.enable = true;
@@ -110,11 +110,14 @@
       ts.format.enable = true;
       ts.treesitter.enable = true;
       ts.lsp.enable = true;
-      ts.format.type = "prettierd";
-      #ts.lsp.server = "denols";
+      #ts.format.type = "prettierd";
+      ts.lsp.server = "denols";
       tailwind.enable = true;
       tailwind.lsp.enable = true;
       rust.enable = true;
+      go.enable = true;
+      go.lsp.enable = true;
+      go.treesitter.enable = true;
     };
   };
 }
