@@ -111,7 +111,7 @@
       ts.treesitter.enable = true;
       ts.lsp.enable = true;
       #ts.format.type = "prettierd";
-      ts.lsp.server = "denols";
+      #ts.lsp.server = "denols";
       tailwind.enable = true;
       tailwind.lsp.enable = true;
       rust.enable = true;
