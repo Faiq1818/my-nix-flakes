@@ -10,5 +10,6 @@
     ./plugins/barbar.nix
     ./plugins/which-key.nix
     ./plugins/lsp.nix
+    ./plugins/indent-blankline.nix
   ];
 }
