@@ -4,11 +4,11 @@
     ./opts.nix
     ./colorscheme.nix
     ./plugins/lualine.nix
-    # need fix, breaking changes
-    #./plugins/neo-tree.nix
     ./plugins/mini.nix
     ./plugins/barbar.nix
+    ./plugins/treesitter.nix
     ./plugins/which-key.nix
+    ./plugins/nvim-cmp.nix
     ./plugins/lsp.nix
     ./plugins/indent-blankline.nix
   ];

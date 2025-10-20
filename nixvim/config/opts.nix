@@ -4,5 +4,6 @@
     relativenumber = true;
     swapfile = false;
     clipboard = "unnamedplus";
+    signcolumn = "yes";
   };
 }
