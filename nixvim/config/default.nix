@@ -4,6 +4,7 @@
     ./opts.nix
     ./colorscheme.nix
     ./plugins/lualine.nix
+    ./plugins/sleuth.nix
     ./plugins/mini.nix
     ./plugins/barbar.nix
     ./plugins/treesitter.nix

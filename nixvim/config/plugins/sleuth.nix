@@ -1,6 +1,6 @@
 {
   plugins = {
-    indent-blankline = {
+    sleuth = {
       enable = true;
     };
   };
