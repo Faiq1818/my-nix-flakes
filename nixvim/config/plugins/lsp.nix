@@ -6,6 +6,7 @@
       servers = {
         gopls.enable = true;
         ts_ls.enable = true;
+        denols.enable = true;
         html.enable = true;
         tailwindcss.enable = true;
         nixd.enable = true;
