@@ -10,6 +10,7 @@
         html.enable = true;
         tailwindcss.enable = true;
         nixd.enable = true;
+	pyright.enable = true;
       };
       keymaps = {
       diagnostic =
