@@ -5,5 +5,6 @@
     swapfile = false;
     clipboard = "unnamedplus";
     signcolumn = "yes";
+    shell = "/run/current-system/sw/bin/zsh";
   };
 }

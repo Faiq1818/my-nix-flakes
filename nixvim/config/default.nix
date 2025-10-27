@@ -6,6 +6,7 @@
     ./plugins/lualine.nix
     ./plugins/sleuth.nix
     ./plugins/mini.nix
+    ./plugins/toggleterm.nix
     ./plugins/barbar.nix
     ./plugins/treesitter.nix
     ./plugins/which-key.nix
