@@ -9,5 +9,13 @@
       };
       mode = "t";
     }
+    {
+      action = "<C-w>";
+      key = "<leader>w";
+      options = {
+        silent = true;
+      };
+      mode = "n";
+    }
   ];
 }
