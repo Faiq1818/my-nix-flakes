@@ -16,7 +16,7 @@
         }
         {
           __unkeyed-1 = "<leader>e";
-          __unkeyed-2 = "<cmd>Explore<CR>";
+          __unkeyed-2 = "<cmd>Neotree position=right<CR>";
           desc = "Explore";
           icon = "󰙅 ";
           mode = "n";

@@ -5,6 +5,7 @@
     ./colorscheme.nix
     ./plugins/lualine.nix
     ./plugins/sleuth.nix
+    ./plugins/neo-tree.nix
     ./plugins/mini.nix
     ./plugins/toggleterm.nix
     ./plugins/barbar.nix
