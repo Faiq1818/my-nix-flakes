@@ -11,7 +11,7 @@
         tailwindcss.enable = true;
         nixd.enable = true;
 	pyright.enable = true;
-	volar.enable = true;
+	vue_ls.enable = true;
       };
       keymaps = {
       diagnostic =
