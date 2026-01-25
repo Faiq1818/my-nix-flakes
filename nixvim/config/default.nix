@@ -14,5 +14,6 @@
     ./plugins/nvim-cmp.nix
     ./plugins/lsp.nix
     ./plugins/indent-blankline.nix
+    ./plugins/telescope.nix
   ];
 }

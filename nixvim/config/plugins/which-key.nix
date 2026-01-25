@@ -63,6 +63,13 @@
           icon = "󰆴 ";
           mode = "n";
         }
+        {
+          __unkeyed-1 = "<leader>ff";
+          __unkeyed-2 = "<cmd>Telescope find_files<CR>";
+          desc = "Telescope Find Files";
+          icon = "󰭎";
+          mode = "n";
+        }
       ];
     };
   };
