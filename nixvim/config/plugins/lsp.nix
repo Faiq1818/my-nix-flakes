@@ -9,7 +9,7 @@
         # denols.enable = true;
         html.enable = true;
         tailwindcss.enable = true;
-        nixd.enable = true;
+        nil_ls.enable = true;
 	pyright.enable = true;
 	vue_ls.enable = true;
       };

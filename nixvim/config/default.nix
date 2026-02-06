@@ -15,5 +15,9 @@
     ./plugins/lsp.nix
     ./plugins/indent-blankline.nix
     ./plugins/telescope.nix
+
+    # snippets
+    ./plugins/luasnip.nix
+    ./plugins/friendly-snippets.nix
   ];
 }
