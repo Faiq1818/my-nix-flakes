@@ -1,10 +1,10 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   plugins = {
     treesitter = {
       enable = true;
-
-      settings = {
-      };
+      highlight.enable = true;
+      indent.enable = true;
 
       nixvimInjections = true;
       grammarPackages = pkgs.vimPlugins.nvim-treesitter.allGrammars;
@@ -22,7 +22,4 @@
       };
     };
   };
-  extraConfigLua = ''
-    local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
-  '';
 }
