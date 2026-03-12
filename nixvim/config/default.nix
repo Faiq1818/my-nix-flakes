@@ -3,7 +3,6 @@
     ./keymaps.nix
     ./opts.nix
     ./colorscheme.nix
-    ./plugins/lualine.nix
     ./plugins/sleuth.nix
     ./plugins/neo-tree.nix
     ./plugins/mini.nix
