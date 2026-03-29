@@ -1,0 +1,7 @@
+{
+  plugins = {
+    presence = {
+      enable = true;
+    };
+  };
+}

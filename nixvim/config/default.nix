@@ -14,6 +14,7 @@
     ./plugins/lsp.nix
     ./plugins/indent-blankline.nix
     ./plugins/telescope.nix
+    ./plugins/presence.nix
 
     # snippets
     ./plugins/luasnip.nix
