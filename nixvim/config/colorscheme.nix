@@ -1,5 +1,5 @@
 {
   colorschemes.catppuccin = {
-    enable = false;
+    enable = true;
   };
 }
