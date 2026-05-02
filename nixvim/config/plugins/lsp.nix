@@ -6,13 +6,13 @@
       servers = {
         gopls.enable = true;
         ts_ls.enable = true;
-        # denols.enable = true;
         html.enable = true;
         tailwindcss.enable = true;
         nil_ls.enable = true;
         pyright.enable = true;
         vue_ls.enable = true;
         kotlin_language_server.enable = true;
+        lua_ls.enable = true;
       };
       keymaps = {
         diagnostic = {
