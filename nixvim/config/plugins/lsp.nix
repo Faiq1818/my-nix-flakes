@@ -13,6 +13,7 @@
         vue_ls.enable = true;
         kotlin_language_server.enable = true;
         lua_ls.enable = true;
+        postgres_lsp.enable = true;
       };
       keymaps = {
         diagnostic = {
