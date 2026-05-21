@@ -11,9 +11,11 @@
         nil_ls.enable = true;
         pyright.enable = true;
         vue_ls.enable = true;
-        kotlin_language_server.enable = true;
         lua_ls.enable = true;
         postgres_lsp.enable = true;
+        yamlls.enable = true;
+        jsonls.enable = true;
+        jdtls.enable = true;
       };
       keymaps = {
         diagnostic = {
@@ -22,7 +24,7 @@
           "<leader>le" = "open_float";
         };
         lspBuf = {
-          "<leader>lK" = "hover";
+          "<leader>lh" = "hover";
           "<leader>lf" = "format";
           "<leader>lr" = "references";
           "<leader>ld" = "definition";
