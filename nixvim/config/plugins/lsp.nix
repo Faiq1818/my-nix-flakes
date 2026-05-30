@@ -9,13 +9,12 @@
         html.enable = true;
         tailwindcss.enable = true;
         nil_ls.enable = true;
-        pyright.enable = true;
+        basedpyright.enable = true;
         vue_ls.enable = true;
         lua_ls.enable = true;
         postgres_lsp.enable = true;
         yamlls.enable = true;
         jsonls.enable = true;
-        jdtls.enable = true;
       };
       keymaps = {
         diagnostic = {

@@ -20,4 +20,9 @@
     ./plugins/luasnip.nix
     ./plugins/friendly-snippets.nix
   ];
+
+  nixpkgs.config.allowUnfreePredicate = pkg:
+    builtins.elem (pkg.pname or "") [
+      "barbar.nvim"
+    ];
 }
