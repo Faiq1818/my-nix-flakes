@@ -15,6 +15,7 @@
         postgres_lsp.enable = true;
         yamlls.enable = true;
         jsonls.enable = true;
+        jdtls.enable = true;
       };
       keymaps = {
         diagnostic = {

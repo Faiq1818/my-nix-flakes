@@ -12,6 +12,7 @@
     ./plugins/which-key.nix
     ./plugins/nvim-cmp.nix
     ./plugins/lsp.nix
+    ./plugins/nvim-lint.nix
     ./plugins/indent-blankline.nix
     ./plugins/telescope.nix
     ./plugins/leetcode.nix
