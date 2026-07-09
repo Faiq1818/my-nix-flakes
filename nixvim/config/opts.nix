@@ -9,4 +9,13 @@
     tabstop = 4;
     shiftwidth = 4;
   };
+  files = {
+    "ftplugin/go.lua" = {
+      localOpts = {
+        expandtab = false;
+        shiftwidth = 8;
+        tabstop = 8;
+      };
+    };
+  };
 }

@@ -15,9 +15,6 @@
       typescriptreact = [
         "eslint_d"
       ];
-      go = [
-        "golangci-lint"
-      ];
     };
   };
 }
