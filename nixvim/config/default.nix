@@ -16,6 +16,7 @@
     ./plugins/indent-blankline.nix
     ./plugins/telescope.nix
     ./plugins/leetcode.nix
+    ./plugins/gitsigns.nix
 
     # snippets
     ./plugins/luasnip.nix
